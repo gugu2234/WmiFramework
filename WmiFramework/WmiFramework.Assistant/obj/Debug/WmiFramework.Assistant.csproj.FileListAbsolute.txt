@@ -1,0 +1,13 @@
+D:\DevelopmentArea\WmiFramework\WmiFramework\WmiFramework.Assistant\bin\Debug\WMIAssistant.exe
+D:\DevelopmentArea\WmiFramework\WmiFramework\WmiFramework.Assistant\bin\Debug\WMIAssistant.pdb
+D:\DevelopmentArea\WmiFramework\WmiFramework\WmiFramework.Assistant\obj\Debug\WmiFramework.Assistant.UserInterface.FormCodeBuilder.resources
+D:\DevelopmentArea\WmiFramework\WmiFramework\WmiFramework.Assistant\obj\Debug\WmiFramework.Assistant.UserInterface.FormExplorer.resources
+D:\DevelopmentArea\WmiFramework\WmiFramework\WmiFramework.Assistant\obj\Debug\WmiFramework.Assistant.UserInterface.FormMain.resources
+D:\DevelopmentArea\WmiFramework\WmiFramework\WmiFramework.Assistant\obj\Debug\WMIAssistant.Properties.Resources.resources
+D:\DevelopmentArea\WmiFramework\WmiFramework\WmiFramework.Assistant\obj\Debug\WmiFramework.Assistant.UserInterface.FormMethod.resources
+D:\DevelopmentArea\WmiFramework\WmiFramework\WmiFramework.Assistant\obj\Debug\WmiFramework.Assistant.UserInterface.FormProperty.resources
+D:\DevelopmentArea\WmiFramework\WmiFramework\WmiFramework.Assistant\obj\Debug\WmiFramework.Assistant.UserInterface.FormQuery.resources
+D:\DevelopmentArea\WmiFramework\WmiFramework\WmiFramework.Assistant\obj\Debug\WmiFramework.Assistant.csproj.GenerateResource.cache
+D:\DevelopmentArea\WmiFramework\WmiFramework\WmiFramework.Assistant\obj\Debug\WmiFramework.Assistant.csproj.CoreCompileInputs.cache
+D:\DevelopmentArea\WmiFramework\WmiFramework\WmiFramework.Assistant\obj\Debug\WMIAssistant.exe
+D:\DevelopmentArea\WmiFramework\WmiFramework\WmiFramework.Assistant\obj\Debug\WMIAssistant.pdb

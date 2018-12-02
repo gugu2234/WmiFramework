@@ -1,0 +1,12 @@
+D:\DevelopmentArea\WmiFramework\WmiFramework\WmiFramework.Demo\bin\Debug\WmiFramework.Demo.exe
+D:\DevelopmentArea\WmiFramework\WmiFramework\WmiFramework.Demo\bin\Debug\WmiFramework.Demo.pdb
+D:\DevelopmentArea\WmiFramework\WmiFramework\WmiFramework.Demo\bin\Debug\WmiFramework.dll
+D:\DevelopmentArea\WmiFramework\WmiFramework\WmiFramework.Demo\bin\Debug\WmiFramework.pdb
+D:\DevelopmentArea\WmiFramework\WmiFramework\WmiFramework.Demo\obj\Debug\WmiFramework.Demo.csprojAssemblyReference.cache
+D:\DevelopmentArea\WmiFramework\WmiFramework\WmiFramework.Demo\obj\Debug\WmiFramework.Demo.FormMain.resources
+D:\DevelopmentArea\WmiFramework\WmiFramework\WmiFramework.Demo\obj\Debug\WmiFramework.Demo.Properties.Resources.resources
+D:\DevelopmentArea\WmiFramework\WmiFramework\WmiFramework.Demo\obj\Debug\WmiFramework.Demo.csproj.GenerateResource.cache
+D:\DevelopmentArea\WmiFramework\WmiFramework\WmiFramework.Demo\obj\Debug\WmiFramework.Demo.csproj.CoreCompileInputs.cache
+D:\DevelopmentArea\WmiFramework\WmiFramework\WmiFramework.Demo\obj\Debug\WmiFramework.Demo.csproj.CopyComplete
+D:\DevelopmentArea\WmiFramework\WmiFramework\WmiFramework.Demo\obj\Debug\WmiFramework.Demo.exe
+D:\DevelopmentArea\WmiFramework\WmiFramework\WmiFramework.Demo\obj\Debug\WmiFramework.Demo.pdb

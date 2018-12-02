@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{91C527C4-14A1-4329-97D1-BB3F6E4C8665}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WmiFramework.Demo</RootNamespace>
+    <AssemblyName>WmiFramework.Demo</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entites\StdRegProvEntity.cs" />
+    <Compile Include="Entites\Win32_BatteryEntity.cs" />
+    <Compile Include="Entites\Win32_BIOSEntity.cs" />
+    <Compile Include="Entites\Win32_ComputerSystemEntity.cs" />
+    <Compile Include="Entites\Win32_DirectoryEntity.cs" />
+    <Compile Include="Entites\Win32_DiskDriveEntity.cs" />
+    <Compile Include="Entites\Win32_FanEntity.cs" />
+    <Compile Include="Entites\Win32_LogicalDiskEntity.cs" />
+    <Compile Include="Entites\Win32_MemoryDeviceEntity.cs" />
+    <Compile Include="Entites\Win32_OperatingSystemEntity.cs" />
+    <Compile Include="Entites\Win32_ProcessEntity.cs" />
+    <Compile Include="Entites\Win32_ProcessorEntity.cs" />
+    <Compile Include="Entites\Win32_SerialPortEntity.cs" />
+    <Compile Include="Entites\Win32_UserDesktopEntity.cs" />
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\StdRegProv.cs" />
+    <Compile Include="Services\Win32_Battery.cs" />
+    <Compile Include="Services\Win32_BIOS.cs" />
+    <Compile Include="Services\Win32_ComputerSystem.cs" />
+    <Compile Include="Services\Win32_Directory.cs" />
+    <Compile Include="Services\Win32_DiskDrive.cs" />
+    <Compile Include="Services\Win32_Fan.cs" />
+    <Compile Include="Services\Win32_LogicalDisk.cs" />
+    <Compile Include="Services\Win32_MemoryDevice.cs" />
+    <Compile Include="Services\Win32_OperatingSystem.cs" />
+    <Compile Include="Services\Win32_Process.cs" />
+    <Compile Include="Services\Win32_Processor.cs" />
+    <Compile Include="Services\Win32_SerialPort.cs" />
+    <Compile Include="Services\Win32_UserDesktop.cs" />
+    <Compile Include="WmiRepository.cs" />
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WmiFramework\WmiFramework.csproj">
+      <Project>{e6b27487-ee95-40d7-9700-4d113f12304f}</Project>
+      <Name>WmiFramework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

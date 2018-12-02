@@ -1,0 +1,6 @@
+D:\DevelopmentArea\WmiFramework\WmiFramework\WmiFramework\obj\Debug\WmiFramework.csprojAssemblyReference.cache
+D:\DevelopmentArea\WmiFramework\WmiFramework\WmiFramework\obj\Debug\WmiFramework.csproj.CoreCompileInputs.cache
+D:\DevelopmentArea\WmiFramework\WmiFramework\WmiFramework\bin\Debug\WmiFramework.dll
+D:\DevelopmentArea\WmiFramework\WmiFramework\WmiFramework\bin\Debug\WmiFramework.pdb
+D:\DevelopmentArea\WmiFramework\WmiFramework\WmiFramework\obj\Debug\WmiFramework.dll
+D:\DevelopmentArea\WmiFramework\WmiFramework\WmiFramework\obj\Debug\WmiFramework.pdb
